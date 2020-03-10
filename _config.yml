@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Timothy Muir Fiction
-email: cteague1222@gmail.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Short fiction by Timothy Muir
-baseurl: "/timothy-muir" # the subpath of your site, e.g. /blog
-url: "https://mister-critter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://timothy-muir.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
