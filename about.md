@@ -3,11 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-## About
-
 ![img](/assets/about-header.jpg "Photo of block print letters")
-Photo by [Amador Loureiro](https://unsplash.com/@amadorloureiroblanco) on [Unsplash](https://unsplash.com/)
+_Photo by [Amador Loureiro](https://unsplash.com/@amadorloureiroblanco) on [Unsplash](https://unsplash.com/)_
 
 This is a repository for my original short works of fiction.
 
