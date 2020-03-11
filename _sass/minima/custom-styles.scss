@@ -47,6 +47,12 @@ h6 {
 	}
 }
 
+/* Content Layout */
+
+.post-content h1, .post-content h2, .post-content h3 {
+	margin-top: 0;
+}
+
 /* Footer Layout */
 
 @media screen and (min-width: 600px) {
