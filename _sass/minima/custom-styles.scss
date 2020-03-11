@@ -1,7 +1,25 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+@import url('https://fonts.googleapis.com/css?family=Domine|Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 /* Header Layout */
+
+.site-title,
+.post-link,
+.page-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Domine', serif;
+}
 
 .header-wrapper {
 	display: flex;
@@ -11,10 +29,10 @@
 
 .theme-switch-wrapper {
 	display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex: 1;
-    padding-right: 20px;
+	align-items: center;
+	justify-content: flex-end;
+	flex: 1;
+	padding-right: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -24,14 +42,27 @@
 	}
 
 	.site-title {
-		font-size: 20px;
+		font-size: 16px;
 		padding-right: 20px;
+	}
+}
+
+/* Footer Layout */
+
+@media screen and (min-width: 600px) {
+
+	.footer-col-wrapper {
+		justify-content: space-between;
+	}
+
+	.footer-col {
+		width: auto;
 	}
 }
 
 /* Dark Mode Styles */
 :root {
-	--primary-color: #302AE6;
+	--primary-color: #000;
 	--secondary-color: #536390;
 	--font-color: #424242;
 	--bg-color: #fff;
@@ -55,7 +86,10 @@ h1 {
 	color: var(--heading-color);
 }
 
-a:link, a:visited, a:active, a:hover {
+a:link,
+a:visited,
+a:active,
+a:hover {
 	color: var(--primary-color) !important;
 }
 
@@ -65,7 +99,8 @@ nav.switcher-nav {
 	padding: 20px 0;
 }
 
-.site-title, .site-title:visited {
+.site-title,
+.site-title:visited {
 	color: var(--primary-color) !important;
 }
 
@@ -106,6 +141,10 @@ nav.switcher-nav {
 	background-color: #fff;
 	bottom: 4px;
 	content: "";
+	background-image: url(/assets/light-bulb.svg);
+	background-position: center center;
+	background-size: 60%;
+	background-repeat: no-repeat;
 	height: 26px;
 	left: 4px;
 	position: absolute;
@@ -114,7 +153,7 @@ nav.switcher-nav {
 }
 
 input:checked+.slider {
-	background-color: #66bb6a;
+	background-color: var(--primary-color);
 }
 
 input:checked+.slider:before {
