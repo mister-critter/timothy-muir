@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ![img](/assets/about-header.jpg "Photo of block print letters")
-_Photo by [Amador Loureiro](https://unsplash.com/@amadorloureiroblanco) on [Unsplash](https://unsplash.com/)_
+_Photo by [Amador Loureiro](https://unsplash.com/@amadorloureiroblanco)_
 
 This is a repository for my original short works of fiction.
 
