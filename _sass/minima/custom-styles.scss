@@ -103,7 +103,7 @@ h6 {
 /* Dark Mode Styles */
 :root {
 	--primary-color: #706c61;
-	--secondary-color: #d1cec6;
+	--secondary-color: #eeeae1;
 	--font-color: #333;
 	--bg-color: #ffffff;
 	--heading-color: #706c61;
@@ -111,9 +111,9 @@ h6 {
 
 [data-theme="dark"] {
 	--primary-color: #FFF;
-	--secondary-color: #413d35;
+	--secondary-color: #2e2b26;
 	--font-color: #FFF;
-	--bg-color: #706c61;
+	--bg-color: #413d35;
 	--heading-color: #FFF;
 }
 
