@@ -21,3 +21,4 @@ fields:
   label: excerpt
 pages:
 - _posts/2020-08-03-test-post-3.md
+- _posts/test-post-4.md
