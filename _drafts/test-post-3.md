@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: post
 title: Test Post 3
 date: 2020-08-03 05:00:00 +0000
 excerpt: This is only a drill....
