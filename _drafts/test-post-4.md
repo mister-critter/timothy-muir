@@ -2,6 +2,7 @@
 layout: post
 date: 2020-08-03 18:10:58 +0000
 title: Test Post 4
+permalink: test-post-4
 excerpt: Nullam porttitor, sapien et feugiat finibus, dui lacus volutpat mauris, non
   lobortis erat ipsum vitae dui. Nulla tincidunt vulputate facilisis.
 
